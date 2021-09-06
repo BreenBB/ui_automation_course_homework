@@ -1,4 +1,19 @@
-Feature: Part 1 of BBC2 variant
+Feature: BBC Auto Tests
+
+  Scenario: Let's check name of the headline article:
+    Given User opens "https://www.bbc.com" page
+    And User clicks on News tab
+    Then User checks what the name of the headline article is 'Taliban raise flag over resistance stronghold'
+
+  Scenario: Let's check name of the secondary articles:
+    Given User opens "https://www.bbc.com" page
+    And User clicks on News tab
+    Then User checks what the names of the secondary articles
+
+  Scenario: Let's check search using category link of the headline article:
+    Given User opens "https://www.bbc.com" page
+    And User clicks on News tab
+    Then User type in search category link and checks result
 
   Scenario Outline: Let's check send us your questions functionality:
     Given User opens "https://www.bbc.com" page

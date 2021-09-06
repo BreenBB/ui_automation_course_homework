@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class GeneratedTextPage extends BasePage {
+public class LoremIpsumGeneratedTextPage extends BasePage {
 
-    public GeneratedTextPage(WebDriver driver) {
+    public LoremIpsumGeneratedTextPage(WebDriver driver) {
         super(driver);
     }
 

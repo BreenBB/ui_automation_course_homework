@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class HomePage extends BasePage {
+public class LoremIpsumHomePage extends BasePage {
 
-    public HomePage(WebDriver driver) {
+    public LoremIpsumHomePage(WebDriver driver) {
         super(driver);
     }
 
